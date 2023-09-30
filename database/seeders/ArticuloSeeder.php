@@ -13,7 +13,7 @@ class ArticuloSeeder extends Seeder
      */
     public function run(): void
     {
-        Articulo::factory(40)->create();
+        Articulo::factory(50)->create();
         
     }
 }
